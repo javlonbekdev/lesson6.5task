@@ -11,8 +11,10 @@
 		5DB53A3F27A8D774006FB0EE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DB53A3E27A8D774006FB0EE /* ContentView.swift */; };
 		5DB53A4127A8D775006FB0EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5DB53A4027A8D775006FB0EE /* Assets.xcassets */; };
 		5DB53A4427A8D775006FB0EE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5DB53A4327A8D775006FB0EE /* Preview Assets.xcassets */; };
-		5DB53A4627A8D775006FB0EE /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DB53A4527A8D775006FB0EE /* Persistence.swift */; };
 		5DB53A4927A8D775006FB0EE /* lesson6_5task.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5DB53A4727A8D775006FB0EE /* lesson6_5task.xcdatamodeld */; };
+		5DB53A5027A8D8BF006FB0EE /* TaskCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DB53A4F27A8D8BF006FB0EE /* TaskCell.swift */; };
+		5DB53A5227A8DA74006FB0EE /* DetailScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DB53A5127A8DA74006FB0EE /* DetailScreen.swift */; };
+		5DB53A5427A8E183006FB0EE /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DB53A5327A8E183006FB0EE /* Persistence.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,8 +23,10 @@
 		5DB53A3E27A8D774006FB0EE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		5DB53A4027A8D775006FB0EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5DB53A4327A8D775006FB0EE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		5DB53A4527A8D775006FB0EE /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		5DB53A4827A8D775006FB0EE /* lesson6_5task.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = lesson6_5task.xcdatamodel; sourceTree = "<group>"; };
+		5DB53A4F27A8D8BF006FB0EE /* TaskCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskCell.swift; sourceTree = "<group>"; };
+		5DB53A5127A8DA74006FB0EE /* DetailScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailScreen.swift; sourceTree = "<group>"; };
+		5DB53A5327A8E183006FB0EE /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,8 +61,10 @@
 			children = (
 				5DB53A3C27A8D774006FB0EE /* lesson6_5taskApp.swift */,
 				5DB53A3E27A8D774006FB0EE /* ContentView.swift */,
+				5DB53A5127A8DA74006FB0EE /* DetailScreen.swift */,
+				5DB53A5327A8E183006FB0EE /* Persistence.swift */,
+				5DB53A4F27A8D8BF006FB0EE /* TaskCell.swift */,
 				5DB53A4027A8D775006FB0EE /* Assets.xcassets */,
-				5DB53A4527A8D775006FB0EE /* Persistence.swift */,
 				5DB53A4727A8D775006FB0EE /* lesson6_5task.xcdatamodeld */,
 				5DB53A4227A8D775006FB0EE /* Preview Content */,
 			);
@@ -143,8 +149,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5DB53A4627A8D775006FB0EE /* Persistence.swift in Sources */,
+				5DB53A5227A8DA74006FB0EE /* DetailScreen.swift in Sources */,
+				5DB53A5027A8D8BF006FB0EE /* TaskCell.swift in Sources */,
 				5DB53A3F27A8D774006FB0EE /* ContentView.swift in Sources */,
+				5DB53A5427A8E183006FB0EE /* Persistence.swift in Sources */,
 				5DB53A3D27A8D774006FB0EE /* lesson6_5taskApp.swift in Sources */,
 				5DB53A4927A8D775006FB0EE /* lesson6_5task.xcdatamodeld in Sources */,
 			);

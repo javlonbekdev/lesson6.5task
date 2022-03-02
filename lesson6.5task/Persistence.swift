@@ -1,8 +1,8 @@
 //
 //  Persistence.swift
-//  lesson6.5task
+//  lesson6.5
 //
-//  Created by Javlonbek on 01/02/22.
+//  Created by Javlonbek on 31/01/22.
 //
 
 import CoreData
